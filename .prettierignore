@@ -1,8 +1,8 @@
 node_modules/
 dist/
 build/
+logs/
 .env
 .vscode/
-logs/
 *.log
 package-lock.json
