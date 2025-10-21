@@ -1,24 +1,35 @@
 {
-	"name": "acquisitions",
-	"version": "1.0.0",
-	"main": "index.js",
-	"type": "module",
-	"scripts": {
-		"dev": "node --watch src/index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/wildanGhifari/acquisitions.git"
-	},
-	"bugs": {
-		"url": "https://github.com/wildanGhifari/acquisitions/issues"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": "",
-	"dependencies": {
-		"dotenv": "^17.2.3",
-		"express": "^5.1.0"
-	}
+    "name": "acquisitions",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "node --watch src/index.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wildanGhifari/acquisitions.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wildanGhifari/acquisitions/issues"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.38.0",
+        "eslint": "^9.38.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.4",
+        "prettier": "^3.6.2"
+    }
 }
